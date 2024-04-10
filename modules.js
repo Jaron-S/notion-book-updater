@@ -23,6 +23,7 @@ const fetchAndUpdate = async () => {
 
   const databaseId = process.env.DATABASE_ID;
 
+  console.log("Checking notion DB...");
   const queryResponse = await notion.databases.query({
     database_id: databaseId,
     page_size: 100,
