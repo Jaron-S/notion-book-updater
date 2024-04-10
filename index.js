@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-
 const cron = require("node-cron");
 const { fetchAndUpdate } = require("./modules");
 
