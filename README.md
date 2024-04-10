@@ -1,11 +1,3 @@
-# starter-express-api
+# notion-book-updater
 
-This is the simplest possible nodejs api using express that responds to any request with: 
-```
-Yo!
-```
-
-### Deploy it in 7 seconds: 
-
-[![Deploy to Cyclic](https://deploy.cyclic.app/button.svg)](https://deploy.cyclic.app/)
-
+This is a simple app which fetches book data and uploads it to books I've added to my Notion reading list.
