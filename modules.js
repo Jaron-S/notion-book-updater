@@ -1,6 +1,6 @@
 // Note: Each check might take up to 5 seconds depending on how many books you have to update.
 // Making this value too low might break the program.
-const CHECK_EVERY_SECONDS = 3;
+const CHECK_EVERY_SECONDS = 10;
 
 const { Client } = require("@notionhq/client");
 
